@@ -416,3 +416,85 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# ===== React Native + Firebase =====
+
+# Firebase
+firebase-config.js
+firebaseConfig.js
+firebase.config.js
+google-services.json
+GoogleService-Info.plist
+
+# Env
+.env
+.env.*
+!.env.example
+
+# React Native
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Expo
+.expo/
+.expo-shared/
+web-build/
+dist/
+
+# Android
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+*.keystore
+*.jks
+
+# iOS
+ios/Pods/
+ios/build/
+ios/*.xcworkspace
+ios/*.xcuserstate
+ios/.xcuserdatad/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
